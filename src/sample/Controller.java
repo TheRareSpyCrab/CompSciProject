@@ -1,47 +1,33 @@
 package sample;
 
-import javafx.scene.layout.Pane;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+import java.io.IOException;
 
-import javax.swing.*;
-import java.awt.event.ActionEvent;
 
 public class Controller {
-    //main buttons on homepage
-    private Pane pnl_items,pnl_villagers,pnl_home,pnl_museum,pnl_settings;
-
-    private JButton btn_items,btn_villagers,btn_home,btn_museum,btn_settings;
-
-    private void handleButtonAction(ActionEvent event) {
-        if(event.getSource() == btn_items)
-        {
-             pnl_items.toFront();
-        }
-        else
-            if(event.getSource() == btn_items)
-                pnl_items.toFront();
-        else
-            if(event.getSource() == btn_villagers)
-                pnl_villagers.toFront();
 
 
-        else
-            if(event.getSource() ==  btn_home)
-                 pnl_home.toFront();
-
-        else
-            if(event.getSource() ==  btn_museum)
-                pnl_museum.toFront();
-
-        else
-            if(event.getSource() == btn_settings)
-                pnl_settings.toFront();
+    @FXML
 
 
+    public void addScene(javafx.event.ActionEvent actionEvent)throws IOException {
+
+        Parent view2 = FXMLLoader.load(getClass().getResource("Museum.fxml"));
+
+        Scene scene2 =  new Scene(view2);
+
+        Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+
+        window.setScene(scene2);
+
+        window.show();
 
     }
 
-
-    public Controller(Pane pnl_items) {
-        this.pnl_items = pnl_items;
-    }
 }

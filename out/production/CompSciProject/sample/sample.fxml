@@ -4,13 +4,8 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Pane fx:id="pnl_items" layoutX="14.0" layoutY="23.0" prefHeight="1016.0" prefWidth="1888.0" />
-      <Pane fx:id="pnl_villagers" layoutX="24.0" layoutY="33.0" prefHeight="1016.0" prefWidth="1888.0" />
-      <Pane fx:id="pnl_home" layoutX="24.0" layoutY="33.0" prefHeight="1016.0" prefWidth="1888.0" />
-      <Pane fx:id="pnl_museum" layoutX="24.0" layoutY="33.0" prefHeight="1016.0" prefWidth="1888.0" />
-      <Pane fx:id="pnl_settings" layoutX="24.0" layoutY="33.0" prefHeight="1016.0" prefWidth="1888.0" />
       <ImageView fitHeight="1056.0" fitWidth="1989.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Icons/background.png" />
@@ -40,7 +35,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button fx:id="btn_museum" layoutX="1200.0" layoutY="463.0" mnemonicParsing="false" prefHeight="198.0" prefWidth="133.0">
+      <Button fx:id="btn_museum" layoutX="1200.0" layoutY="463.0" mnemonicParsing="false" onAction="#addScene" prefHeight="198.0" prefWidth="133.0">
          <graphic>
             <ImageView fitHeight="288.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -54,5 +49,6 @@
                   <Image url="@../Icons/settings-icon.png" />
                </image></ImageView>
          </graphic></Button>
+      <ButtonBar layoutX="-2.0" prefHeight="25.0" prefWidth="434.0" />
    </children>
 </AnchorPane>
