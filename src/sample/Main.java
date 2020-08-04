@@ -14,7 +14,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("ACNH-Helper");
-        primaryStage.setScene(new Scene(root, 1000, 800));
+        primaryStage.setScene(new Scene(root, 1920, 1056));
+        // to stop resizing otherwise all the pictures mess up O.o
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
