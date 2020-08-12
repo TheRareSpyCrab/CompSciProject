@@ -35,7 +35,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button fx:id="btn_museum" layoutX="1200.0" layoutY="463.0" mnemonicParsing="false" onAction="#addScene" prefHeight="198.0" prefWidth="133.0">
+      <Button fx:id="btn_museum" layoutX="1200.0" layoutY="463.0" mnemonicParsing="false" onAction="#addScene1" prefHeight="198.0" prefWidth="133.0">
          <graphic>
             <ImageView fitHeight="288.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>

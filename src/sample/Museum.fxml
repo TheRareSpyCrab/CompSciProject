@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane fx:id="musem" prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <ImageView fitHeight="1056.0" fitWidth="1937.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Icons/background2.jpg" />
-         </image>
-      </ImageView>
+      <ScrollPane prefHeight="1056.0" prefWidth="1922.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3055.0" prefWidth="1921.0">
+               <children>
+                  <ImageView layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Icons/background2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="TOP_LEFT" layoutX="35.0" layoutY="33.0" mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#addScene2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/backicon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
    </children>
 </AnchorPane>
