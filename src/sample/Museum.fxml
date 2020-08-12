@@ -15,15 +15,14 @@
                         <Image url="@../Icons/background2.jpg" />
                      </image>
                   </ImageView>
-                  <Button alignment="TOP_LEFT" layoutX="35.0" layoutY="33.0" mnemonicParsing="false">
+                  <Button alignment="TOP_LEFT" layoutX="24.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
                      <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#addScene2" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../Icons/backicon.png" />
                            </image>
                         </ImageView>
-                     </graphic>
-                  </Button>
+                     </graphic></Button>
                </children></AnchorPane>
         </content>
       </ScrollPane>

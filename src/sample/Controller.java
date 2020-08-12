@@ -14,7 +14,7 @@ public class Controller {
 
     @FXML
     public void addScene2(ActionEvent actionEvent) throws IOException {
-        Parent view1 = (Parent) FXMLLoader.load(this.getClass().getResource("sample.fxml"));
+        Parent view1 = (Parent) FXMLLoader.load(this.getClass().getResource("Items.fxml"));
         Scene scene1 = new Scene(view1);
         Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene1);
