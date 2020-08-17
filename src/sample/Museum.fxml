@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane fx:id="musem" prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
@@ -15,14 +17,51 @@
                         <Image url="@../Icons/background2.jpg" />
                      </image>
                   </ImageView>
-                  <Button alignment="TOP_LEFT" layoutX="24.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                  <ImageView fitHeight="265.0" fitWidth="662.0" layoutX="117.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../animal_crossing_paintings/no_fake_copy/CommonPainting.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btn_back" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back1" prefHeight="96.0" prefWidth="85.0" style="-fx-background-color: transparent;">
                      <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="88.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../Icons/backicon.png" />
                            </image>
                         </ImageView>
-                     </graphic></Button>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <CheckBox layoutX="373.0" layoutY="406.0" mnemonicParsing="false" prefHeight="123.0" prefWidth="406.0" text="Common Painting">
+                     <font>
+                        <Font name="FinkHeavy" size="35.0" />
+                     </font></CheckBox>
+                  <Label layoutX="365.0" layoutY="500.0" prefHeight="38.0" prefWidth="404.0" text="This painting is always genuine!">
+                     <font>
+                        <Font name="FinkHeavy" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="9.0" fitWidth="241.0" layoutX="433.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Icons/line.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="365.0" layoutY="538.0" prefHeight="55.0" prefWidth="290.0" text="Original: The Gleaners">
+                     <font>
+                        <Font name="FinkHeavy" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="365.0" layoutY="587.0" text="By Jean-François Millet, 1857">
+                     <font>
+                        <Font name="FinkHeavy" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="244.0" fitWidth="663.0" layoutX="117.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../animal_crossing_paintings/no_fake_copy/DynamicPainting.png" />
+                     </image>
+                  </ImageView>
                </children></AnchorPane>
         </content>
       </ScrollPane>

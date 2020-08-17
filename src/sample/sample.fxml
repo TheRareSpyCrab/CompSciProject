@@ -24,7 +24,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="btn_villagers" layoutX="510.0" layoutY="463.0" mnemonicParsing="false" prefHeight="198.0" prefWidth="133.0" style="-fx-background-color: transparent;">
+      <Button fx:id="btn_villagers" layoutX="510.0" layoutY="463.0" mnemonicParsing="false" onAction="#addScene3" prefHeight="198.0" prefWidth="133.0" style="-fx-background-color: transparent;">
          <graphic>
             <ImageView fitHeight="288.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -34,7 +34,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="btn_home" layoutX="852.0" layoutY="463.0" mnemonicParsing="false" prefHeight="198.0" prefWidth="133.0" style="-fx-background-color: transparent;">
+      <Button fx:id="btn_home" layoutX="852.0" layoutY="463.0" mnemonicParsing="false" onAction="#addScene4" prefHeight="198.0" prefWidth="133.0" style="-fx-background-color: transparent;">
          <graphic>
             <ImageView fitHeight="288.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -55,7 +55,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="btn_settings" layoutX="1499.0" layoutY="463.0" mnemonicParsing="false" prefHeight="198.0" prefWidth="133.0" style="-fx-background-color: transparent;">
+      <Button fx:id="btn_settings" layoutX="1499.0" layoutY="463.0" mnemonicParsing="false" onAction="#addScene5" prefHeight="198.0" prefWidth="133.0" style="-fx-background-color: transparent;">
          <graphic>
             <ImageView fitHeight="288.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
