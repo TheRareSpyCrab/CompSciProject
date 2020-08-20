@@ -65,6 +65,15 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
+      <Button fx:id="btn_close" layoutX="1772.0" layoutY="13.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="134.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/closeiconpng.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
       <ButtonBar layoutX="-2.0" prefHeight="25.0" prefWidth="434.0" />
    </children>
 </AnchorPane>
