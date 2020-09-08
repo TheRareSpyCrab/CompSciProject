@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.image.Image?>
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller" prefHeight="1056.0" prefWidth="1920.0">
+<AnchorPane prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Button fx:id="btn_back" mnemonicParsing="false" prefHeight="130.0" prefWidth="184.0" onAction="#back1" style="-fx-background-color: transparent;">
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="1080.0" fitWidth="1928.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/background10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+        <Button fx:id="btn_back" mnemonicParsing="false" onAction="#back1" prefHeight="130.0" prefWidth="184.0" style="-fx-background-color: transparent;">
             <graphic>
                 <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                     <image>

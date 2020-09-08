@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="musem" prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane fx:id="musem" prefHeight="1056.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <ScrollPane prefHeight="1056.0" prefWidth="1922.0">
         <content>
@@ -22,105 +17,142 @@
                         <Image url="@../Icons/background2.jpg" />
                      </image>
                   </ImageView>
-                  <Pane fx:id="Pane_paintings" layoutX="100.0" layoutY="655.0" prefHeight="2324.0" prefWidth="1714.0">
+                  <StackPane layoutX="100.0" layoutY="650.0" prefHeight="2324.0" prefWidth="1720.0">
                      <children>
-                        <ImageView fitHeight="2278.0" fitWidth="1720.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Icons/allnofakepaintings.png" />
-                           </image>
-                        </ImageView>
-                        <CheckBox layoutX="322.0" layoutY="-15.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Common Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1191.0" layoutY="-15.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Perfect Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="322.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Dynamic Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="322.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Calm Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Flowery Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Glowing Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="322.0" layoutY="1285.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Moody Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="322.0" layoutY="960.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Mysterious Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1050.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Nice Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1191.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Proper Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1191.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Sinking Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1191.0" layoutY="960.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Twinkling Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1191.0" layoutY="1285.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Warm Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox layoutX="1191.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Worthy Painting">
-                           <font>
-                              <Font name="FinkHeavy" size="35.0" />
-                           </font>
-                        </CheckBox>
-                        <Label layoutX="319.0" layoutY="116.0" prefHeight="38.0" prefWidth="404.0" text="This painting is always genuine!">
-                           <font>
-                              <Font name="FinkHeavy" size="30.0" />
-                           </font>
-                        </Label>
-                        <ImageView fitHeight="9.0" fitWidth="241.0" layoutX="384.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Icons/line.png" />
-                           </image>
-                        </ImageView>
-                        <Label layoutX="323.0" layoutY="171.0" prefHeight="55.0" prefWidth="290.0" text="Original: The Gleaners">
-                           <font>
-                              <Font name="FinkHeavy" size="30.0" />
-                           </font>
-                        </Label>
-                        <Label layoutX="325.0" layoutY="237.0" text="By Jean-François Millet, 1857">
-                           <font>
-                              <Font name="FinkHeavy" size="30.0" />
-                           </font>
-                        </Label>
+                        <Pane fx:id="Pane_fake" prefHeight="2356.0" prefWidth="1744.0" />
+                        <Pane fx:id="Pane_real" prefHeight="2324.0" prefWidth="1714.0">
+                           <children>
+                              <ImageView fitHeight="2278.0" fitWidth="1720.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icons/allnofakepaintings.png" />
+                                 </image>
+                              </ImageView>
+                              <CheckBox layoutX="322.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Common Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Perfect Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="322.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Dynamic Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="322.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Calm Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Flowery Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Glowing Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="322.0" layoutY="1285.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Moody Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="322.0" layoutY="960.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Mysterious Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1050.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Nice Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1191.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Proper Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1191.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Sinking Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1191.0" layoutY="960.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Twinkling Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1191.0" layoutY="1285.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Warm Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <CheckBox layoutX="1191.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Worthy Painting">
+                                 <font>
+                                    <Font name="FinkHeavy" size="35.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </CheckBox>
+                              <Label layoutX="322.0" layoutY="143.0" prefHeight="38.0" prefWidth="404.0" text="This painting is always genuine!">
+                                 <font>
+                                    <Font name="FinkHeavy" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="322.0" layoutY="214.0" prefHeight="55.0" prefWidth="290.0" text="Original: The Gleaners">
+                                 <font>
+                                    <Font name="FinkHeavy" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
                      </children>
-                  </Pane>
+                  </StackPane>
                   <Button fx:id="btn_back" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back1" prefHeight="96.0" prefWidth="85.0" style="-fx-background-color: transparent;">
                      <graphic>
                         <ImageView fitHeight="88.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
@@ -132,6 +164,125 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
+                  <Button fx:id="btn_paint" layoutX="100.0" layoutY="387.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="259.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/paintings1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn_statues" layoutX="449.0" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/statues2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn_critters" layoutX="799.0" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/critters3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn_fish" layoutX="1147.0" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/fish4.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btn_fossils" layoutX="1483.0" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/fossils5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="paint1" layoutX="449.0" layoutY="538.0" mnemonicParsing="false" onAction="#museumpaint1" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/page1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="paint2" layoutX="793.0" layoutY="538.0" mnemonicParsing="false" onAction="#museumpaint2" prefHeight="54.0" prefWidth="118.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/page2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="paint3" layoutX="1147.0" layoutY="538.0" mnemonicParsing="false" onAction="#museumpaint2" prefHeight="54.0" prefWidth="118.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/page3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="117.0" layoutY="552.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="164.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fx:id="save" fitHeight="46.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/save1.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="1603.0" layoutY="552.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fx:id="load" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/load1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
                </children></AnchorPane>
         </content>
       </ScrollPane>
