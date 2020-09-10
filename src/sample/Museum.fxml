@@ -27,7 +27,7 @@
                                     <Image url="@../Icons/allnofakepaintings.png" />
                                  </image>
                               </ImageView>
-                              <CheckBox layoutX="322.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Common Painting">
+                              <CheckBox fx:id="box_common" layoutX="322.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" selected="False" text="Common Painting">
                                  <font>
                                     <Font name="FinkHeavy" size="35.0" />
                                  </font>
@@ -248,7 +248,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button fx:id="paint3" layoutX="1147.0" layoutY="538.0" mnemonicParsing="false" onAction="#museumpaint2" prefHeight="54.0" prefWidth="118.0" style="-fx-background-color: transparent;">
+                  <Button fx:id="paint3" layoutX="1147.0" layoutY="538.0" mnemonicParsing="false" onAction="#museumpaint3" prefHeight="54.0" prefWidth="118.0" style="-fx-background-color: transparent;">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
                            <image>

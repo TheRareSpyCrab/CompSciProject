@@ -19,99 +19,33 @@
                         </ImageView>
                         <StackPane layoutX="100.0" layoutY="650.0" prefHeight="2324.0" prefWidth="1720.0">
                             <children>
-                                <Pane fx:id="Pane_fake" prefHeight="2356.0" prefWidth="1744.0" />
                                 <Pane fx:id="Pane_real" prefHeight="2324.0" prefWidth="1714.0">
                                     <children>
                                         <ImageView fitHeight="2278.0" fitWidth="1720.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
                                             <image>
-                                                <Image url="@../Icons/paintings2.png" />
+                                                <Image url="@../Icons/paintings3.png" />
                                             </image>
                                         </ImageView>
-                                        <CheckBox layoutX="322.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Common Painting">
+                                        <CheckBox layoutX="322.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Solemn Painting">
                                             <font>
                                                 <Font name="FinkHeavy" size="35.0" />
                                             </font>
                                         </CheckBox>
-                                        <CheckBox layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Perfect Painting">
+                                        <CheckBox layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Wild Painting - left Half">
                                             <font>
                                                 <Font name="FinkHeavy" size="35.0" />
                                             </font>
                                         </CheckBox>
-                                        <CheckBox layoutX="322.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Dynamic Painting">
+                                        <CheckBox layoutX="10.0" layoutY="600.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="WistFul Painting">
                                             <font>
                                                 <Font name="FinkHeavy" size="35.0" />
                                             </font>
                                         </CheckBox>
-                                        <CheckBox layoutX="322.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Calm Painting">
+                                        <CheckBox layoutX="870.0" layoutY="600.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="459.0" text="Wild Painting - Right Half">
                                             <font>
                                                 <Font name="FinkHeavy" size="35.0" />
                                             </font>
                                         </CheckBox>
-                                        <CheckBox layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Flowery Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Glowing Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="322.0" layoutY="1285.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Moody Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="322.0" layoutY="960.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Mysterious Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="1050.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Nice Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="1191.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Proper Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="1191.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Sinking Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="1191.0" layoutY="960.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Twinkling Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="1191.0" layoutY="1285.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Warm Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <CheckBox layoutX="1191.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Worthy Painting">
-                                            <font>
-                                                <Font name="FinkHeavy" size="35.0" />
-                                            </font>
-                                        </CheckBox>
-                                        <Label layoutX="319.0" layoutY="116.0" prefHeight="38.0" prefWidth="404.0" text="This painting is always genuine!">
-                                            <font>
-                                                <Font name="FinkHeavy" size="30.0" />
-                                            </font>
-                                        </Label>
-                                        <Label layoutX="323.0" layoutY="171.0" prefHeight="55.0" prefWidth="290.0" text="Original: The Gleaners">
-                                            <font>
-                                                <Font name="FinkHeavy" size="30.0" />
-                                            </font>
-                                        </Label>
-                                        <Label layoutX="325.0" layoutY="237.0" text="By Jean-François Millet, 1857">
-                                            <font>
-                                                <Font name="FinkHeavy" size="30.0" />
-                                            </font>
-                                        </Label>
                                     </children>
                                 </Pane>
                             </children>

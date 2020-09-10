@@ -82,6 +82,8 @@ public class Controller {
         stage.close();
     }
 
+    //museum tabs
+
     @FXML
     public void museumpaint1(ActionEvent actionEvent) throws IOException {
         Parent museum = (Parent) FXMLLoader.load(this.getClass().getResource("Museum.fxml"));
