@@ -22,6 +22,7 @@ public class Controller {
         Checkboxsave.put("John Doe", "Toyota");
         Checkboxsave.put("Jane Doe", "Subaru");
 
+
         for (Map.Entry me : Checkboxsave.entrySet()) {
             System.out.println("Key: "+me.getKey() + " & Value: " + me.getValue());
         }
