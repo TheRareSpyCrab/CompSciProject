@@ -35,7 +35,7 @@
                                     <Cursor fx:constant="HAND" />
                                  </cursor>
                               </CheckBox>
-                              <CheckBox layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" text="Perfect Painting">
+                              <CheckBox layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" prefHeight="106.0" prefWidth="429.0" selected="False" text="Perfect Painting">
                                  <font>
                                     <Font name="FinkHeavy" size="35.0" />
                                  </font>
@@ -43,7 +43,7 @@
                                     <Cursor fx:constant="HAND" />
                                  </cursor>
                               </CheckBox>
-                              <CheckBox layoutX="322.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Dynamic Painting">
+                              <CheckBox layoutX="322.0" layoutY="310.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" selected="False" text="Dynamic Painting">
                                  <font>
                                     <Font name="FinkHeavy" size="35.0" />
                                  </font>
@@ -51,7 +51,7 @@
                                     <Cursor fx:constant="HAND" />
                                  </cursor>
                               </CheckBox>
-                              <CheckBox layoutX="322.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Calm Painting">
+                              <CheckBox layoutX="322.0" layoutY="635.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0"  selected="False" text="Calm Painting">
                                  <font>
                                     <Font name="FinkHeavy" size="35.0" />
                                  </font>
@@ -59,7 +59,7 @@
                                     <Cursor fx:constant="HAND" />
                                  </cursor>
                               </CheckBox>
-                              <CheckBox layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Flowery Painting">
+                              <CheckBox layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" selected="False" text="Flowery Painting">
                                  <font>
                                     <Font name="FinkHeavy" size="35.0" />
                                  </font>
@@ -67,7 +67,7 @@
                                     <Cursor fx:constant="HAND" />
                                  </cursor>
                               </CheckBox>
-                              <CheckBox layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" text="Glowing Painting">
+                              <CheckBox layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="429.0" selected="False" text="Glowing Painting">
                                  <font>
                                     <Font name="FinkHeavy" size="35.0" />
                                  </font>
@@ -260,7 +260,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="117.0" layoutY="552.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="164.0" style="-fx-background-color: transparent;">
+                  <Button layoutX="117.0" layoutY="552.0" mnemonicParsing="false"  prefHeight="54.0" prefWidth="164.0" style="-fx-background-color: transparent;">
                      <graphic>
                         <ImageView fx:id="save" fitHeight="46.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
                            <image>

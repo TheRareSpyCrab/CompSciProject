@@ -1,5 +1,11 @@
 package sample;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -7,7 +13,37 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
 public class Controller {
+    public static void main(String[] args) {
+        Map<String, String> Checkboxsave = new HashMap<String, String>();
+
+        Checkboxsave.put("Trevor Storr", "Ford");
+        Checkboxsave.put("John Doe", "Toyota");
+        Checkboxsave.put("Jane Doe", "Subaru");
+
+        for (Map.Entry me : Checkboxsave.entrySet()) {
+            System.out.println("Key: "+me.getKey() + " & Value: " + me.getValue());
+        }
+
+        String name = "Trevor Storr";
+        String car = Checkboxsave.get(name);
+        System.out.println (name + " owns a " + car  );
+
+        try
+        {
+            FileOutputStream fos =
+                    new FileOutputStream("ACNHsave.ser");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(Checkboxsave);
+            oos.close();
+            fos.close();
+            System.out.printf("Saved");
+        }catch(IOException ioe)
+        {
+            ioe.printStackTrace();
+        }
+    }
     // This controller is the main controller for switching windows, closing the program, and any other essential code that relates to each page
 
     //Items button
@@ -25,7 +61,6 @@ public class Controller {
     public void addScene1(ActionEvent actionEvent) throws IOException {
         Parent view2 = (Parent) FXMLLoader.load(this.getClass().getResource("Museum.fxml"));
         Scene scene2 = new Scene(view2);
-        scene2.getStylesheets().add("/sample/CSS/stylesheet1.css");
         Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene2);
         window.show();
@@ -110,11 +145,4 @@ public class Controller {
         window.setScene(museum3);
         window.show();
     }
-
-
-
-
-    // MMYYYY ATTEMPT AT MAKING A SAVING AND LOADING BUTTON AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-
-
 }
