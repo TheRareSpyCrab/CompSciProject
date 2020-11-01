@@ -10,7 +10,7 @@
    <children>
       <StackPane fx:id="stackPane" prefHeight="1056.0" prefWidth="1920.0">
          <children>
-            <ScrollPane fx:id="MuseumPane3" layoutX="10.0" layoutY="10.0" prefHeight="1056.0" prefWidth="1922.0">
+            <ScrollPane fx:id="MuseumPane3" layoutX="10.0" layoutY="10.0" prefHeight="1056.0" prefWidth="1922.0" visible="false">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3055.0" prefWidth="1921.0">
                      <children>
@@ -432,7 +432,7 @@
                   </AnchorPane>
                </content>
             </ScrollPane>
-            <ScrollPane fx:id="MuseumPane1" prefHeight="1056.0" prefWidth="1922.0" visible="false">
+            <ScrollPane fx:id="MuseumPane1" prefHeight="1056.0" prefWidth="1922.0">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3055.0" prefWidth="1921.0">
                      <children>
@@ -689,6 +689,8 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </Button>
+                        <Button layoutX="199.0" layoutY="552.0" mnemonicParsing="false" onAction="#loadSaved" text="Button" />
+                        <Button layoutX="199.0" layoutY="513.0" mnemonicParsing="false" onAction="#save" text="Button" />
                      </children></AnchorPane>
                </content>
             </ScrollPane>
