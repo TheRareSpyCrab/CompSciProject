@@ -28,22 +28,22 @@
                                           <Image url="@../Icons/paintings3.png" />
                                        </image>
                                     </ImageView>
-                                    <CheckBox fx:id="check27" layoutX="322.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="106.0" prefWidth="429.0" text="Solemn Painting">
+                                    <CheckBox fx:id="check27" layoutX="322.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="106.0" prefWidth="429.0" text="Solemn Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
                                     </CheckBox>
-                                    <CheckBox fx:id="check28" layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="106.0" prefWidth="429.0" text="Wild Painting - left Half">
+                                    <CheckBox fx:id="check28" layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="106.0" prefWidth="429.0" text="Wild Painting - left Half">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
                                     </CheckBox>
-                                    <CheckBox fx:id="check29" layoutX="10.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="WistFul Painting">
+                                    <CheckBox fx:id="check29" layoutX="10.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="WistFul Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
                                     </CheckBox>
-                                    <CheckBox fx:id="check30" layoutX="870.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="459.0" text="Wild Painting - Right Half">
+                                    <CheckBox fx:id="check30" layoutX="870.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="459.0" text="Wild Painting - Right Half">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -191,7 +191,7 @@
                                           <Image url="@../Icons/paintings2.png" />
                                        </image>
                                     </ImageView>
-                                    <CheckBox fx:id="check15" layoutX="322.0" layoutY="12.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="83.0" prefWidth="429.0" text="Academic Painting">
+                                    <CheckBox fx:id="check15" layoutX="322.0" layoutY="12.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="83.0" prefWidth="429.0" text="Academic Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -199,7 +199,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check16" layoutX="1183.0" layoutY="13.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="82.0" prefWidth="429.0" text="Graceful Painting">
+                                    <CheckBox fx:id="check16" layoutX="1183.0" layoutY="13.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="82.0" prefWidth="429.0" text="Graceful Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -207,7 +207,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check17" layoutX="16.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Amazing Painting">
+                                    <CheckBox fx:id="check17" layoutX="16.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Amazing Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -215,7 +215,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check18" layoutX="322.0" layoutY="770.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Serene Paiting">
+                                    <CheckBox fx:id="check18" layoutX="322.0" layoutY="770.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Serene Paiting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -223,7 +223,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check19" layoutX="16.0" layoutY="2150.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Famous Painting">
+                                    <CheckBox fx:id="check19" layoutX="16.0" layoutY="2150.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Famous Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -231,7 +231,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check20" layoutX="322.0" layoutY="1540.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Detailed Painting">
+                                    <CheckBox fx:id="check20" layoutX="322.0" layoutY="1540.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Detailed Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -239,7 +239,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check21" layoutX="16.0" layoutY="1380.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Basic Painting">
+                                    <CheckBox fx:id="check21" layoutX="16.0" layoutY="1380.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Basic Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -247,7 +247,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check22" layoutX="886.0" layoutY="2150.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Scenic Painting">
+                                    <CheckBox fx:id="check22" layoutX="886.0" layoutY="2150.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Scenic Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -255,7 +255,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check23" layoutX="886.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Jolly Painting">
+                                    <CheckBox fx:id="check23" layoutX="886.0" layoutY="600.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Jolly Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -263,7 +263,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check24" layoutX="1183.0" layoutY="770.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Moving Painting">
+                                    <CheckBox fx:id="check24" layoutX="1183.0" layoutY="770.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Moving Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -271,7 +271,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check25" layoutX="886.0" layoutY="1380.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Quaint Painting">
+                                    <CheckBox fx:id="check25" layoutX="886.0" layoutY="1380.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Quaint Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -279,7 +279,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check26" layoutX="1183.0" layoutY="1540.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Scary Painting">
+                                    <CheckBox fx:id="check26" layoutX="1183.0" layoutY="1540.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Scary Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -432,7 +432,7 @@
                   </AnchorPane>
                </content>
             </ScrollPane>
-            <ScrollPane fx:id="MuseumPane1" prefHeight="1056.0" prefWidth="1922.0">
+            <ScrollPane fx:id="MuseumPane1" prefHeight="1056.0" prefWidth="1922.0" visible="false">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3055.0" prefWidth="1921.0">
                      <children>
@@ -451,7 +451,7 @@
                                           <Image url="@../Icons/allnofakepaintings.png" />
                                        </image>
                                     </ImageView>
-                                    <CheckBox fx:id="check1" layoutX="322.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="106.0" prefWidth="429.0" selected="False" text="Common Painting">
+                                    <CheckBox fx:id="check1" layoutX="322.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="106.0" prefWidth="429.0" selected="False" text="Common Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -459,7 +459,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check2" layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="106.0" prefWidth="429.0" selected="False" text="Perfect Painting">
+                                    <CheckBox fx:id="check2" layoutX="1191.0" layoutY="10.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="106.0" prefWidth="429.0" selected="False" text="Perfect Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -467,7 +467,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check3" layoutX="322.0" layoutY="310.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" selected="False" text="Dynamic Painting">
+                                    <CheckBox fx:id="check3" layoutX="322.0" layoutY="310.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" selected="False" text="Dynamic Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -475,7 +475,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check10" layoutX="322.0" layoutY="635.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" selected="False" text="Calm Painting">
+                                    <CheckBox fx:id="check10" layoutX="322.0" layoutY="635.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" selected="False" text="Calm Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -483,7 +483,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check9" layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" selected="False" text="Flowery Painting">
+                                    <CheckBox fx:id="check9" layoutX="322.0" layoutY="1945.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" selected="False" text="Flowery Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -491,7 +491,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check11" layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" selected="False" text="Glowing Painting">
+                                    <CheckBox fx:id="check11" layoutX="322.0" layoutY="1610.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" selected="False" text="Glowing Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -499,7 +499,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check12" layoutX="322.0" layoutY="1285.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Moody Painting">
+                                    <CheckBox fx:id="check12" layoutX="322.0" layoutY="1285.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Moody Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -507,7 +507,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check13" layoutX="322.0" layoutY="960.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Mysterious Painting">
+                                    <CheckBox fx:id="check13" layoutX="322.0" layoutY="960.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Mysterious Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -515,7 +515,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check14" layoutX="1050.0" layoutY="1945.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Nice Painting">
+                                    <CheckBox fx:id="check14" layoutX="1050.0" layoutY="1945.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Nice Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -523,7 +523,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check4" layoutX="1191.0" layoutY="310.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Proper Painting">
+                                    <CheckBox fx:id="check4" layoutX="1191.0" layoutY="310.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Proper Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -531,7 +531,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check5" layoutX="1191.0" layoutY="635.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Sinking Painting">
+                                    <CheckBox fx:id="check5" layoutX="1191.0" layoutY="635.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Sinking Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -539,7 +539,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check6" layoutX="1191.0" layoutY="960.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Twinkling Painting">
+                                    <CheckBox fx:id="check6" layoutX="1191.0" layoutY="960.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Twinkling Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -547,7 +547,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check7" layoutX="1191.0" layoutY="1285.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Warm Painting">
+                                    <CheckBox fx:id="check7" layoutX="1191.0" layoutY="1285.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Warm Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -555,7 +555,7 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <CheckBox fx:id="check8" layoutX="1191.0" layoutY="1610.0" mnemonicParsing="false" onAction="#PressButtonTicks" prefHeight="131.0" prefWidth="429.0" text="Worthy Painting">
+                                    <CheckBox fx:id="check8" layoutX="1191.0" layoutY="1610.0" mnemonicParsing="false" onAction="#PressButtonTicks" onMouseClicked="#saving" prefHeight="131.0" prefWidth="429.0" text="Worthy Painting">
                                        <font>
                                           <Font name="FinkHeavy" size="35.0" />
                                        </font>
@@ -689,8 +689,6 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </Button>
-                        <Button layoutX="199.0" layoutY="552.0" mnemonicParsing="false" onAction="#loadSaved" text="Button" />
-                        <Button layoutX="199.0" layoutY="513.0" mnemonicParsing="false" onAction="#save" text="Button" />
                      </children></AnchorPane>
                </content>
             </ScrollPane>
@@ -762,7 +760,7 @@
                   </TextField>
                </children>
             </Pane>
-            <Pane fx:id="MainPane" prefHeight="514.0" prefWidth="1310.0" visible="false">
+            <Pane fx:id="MainPane" prefHeight="514.0" prefWidth="1310.0">
                <children>
                   <ImageView fitHeight="1062.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
                      <image>

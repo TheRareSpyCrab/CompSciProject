@@ -51,13 +51,8 @@ public class Controller {
 
     //to saveeee
 
-
     public void saving()  {
         Preferences prefs = Preferences.userRoot().node(this.getClass().getName());
-
-
-
-
         prefs.putBoolean("check1", check1.isSelected());
         prefs.putBoolean("check2", check2.isSelected());
         prefs.putBoolean("check3", check3.isSelected());
@@ -88,14 +83,12 @@ public class Controller {
         prefs.putBoolean("check28", check28.isSelected());
         prefs.putBoolean("check29", check29.isSelected());
         prefs.putBoolean("check30", check30.isSelected());
-
-
     }
 
     //to loaaadddd
 
 
-    public void loading(){
+    public void initialize(){
         Preferences prefs = Preferences.userRoot().node(this.getClass().getName());
         boolean check1Saved = prefs.getBoolean("check1", false );
         boolean check2Saved = prefs.getBoolean("check2", false );
@@ -130,35 +123,38 @@ public class Controller {
 
         check1.setSelected(check1Saved);
         check2.setSelected(check2Saved);
-        check1.setSelected(check3Saved);
-        check2.setSelected(check4Saved);
-        check1.setSelected(check5Saved);
-        check2.setSelected(check6Saved);
-        check1.setSelected(check7Saved);
-        check2.setSelected(check8Saved);
-        check1.setSelected(check9Saved);
-        check2.setSelected(check10Saved);
-        check1.setSelected(check11Saved);
-        check2.setSelected(check12Saved);
-        check1.setSelected(check13Saved);
-        check2.setSelected(check14Saved);
-        check1.setSelected(check15Saved);
-        check2.setSelected(check16Saved);
-        check1.setSelected(check17Saved);
-        check2.setSelected(check18Saved);
-        check1.setSelected(check19Saved);
-        check2.setSelected(check20Saved);
-        check1.setSelected(check21Saved);
-        check2.setSelected(check22Saved);
-        check1.setSelected(check23Saved);
-        check2.setSelected(check24Saved);
-        check1.setSelected(check25Saved);
-        check2.setSelected(check26Saved);
-        check1.setSelected(check27Saved);
-        check2.setSelected(check28Saved);
-        check1.setSelected(check29Saved);
-        check2.setSelected(check30Saved);
+        check3.setSelected(check3Saved);
+        check4.setSelected(check4Saved);
+        check5.setSelected(check5Saved);
+        check6.setSelected(check6Saved);
+        check7.setSelected(check7Saved);
+        check8.setSelected(check8Saved);
+        check9.setSelected(check9Saved);
+        check10.setSelected(check10Saved);
+        check11.setSelected(check11Saved);
+        check12.setSelected(check12Saved);
+        check13.setSelected(check13Saved);
+        check14.setSelected(check14Saved);
+        check15.setSelected(check15Saved);
+        check16.setSelected(check16Saved);
+        check17.setSelected(check17Saved);
+        check18.setSelected(check18Saved);
+        check19.setSelected(check19Saved);
+        check20.setSelected(check20Saved);
+        check21.setSelected(check21Saved);
+        check22.setSelected(check22Saved);
+        check23.setSelected(check23Saved);
+        check24.setSelected(check24Saved);
+        check25.setSelected(check25Saved);
+        check26.setSelected(check26Saved);
+        check27.setSelected(check27Saved);
+        check28.setSelected(check28Saved);
+        check29.setSelected(check29Saved);
+        check30.setSelected(check30Saved);
 
+        int TotalTicks = ticksp1;
+        System.out.println(TotalTicks);
+        textfield.setText(valueOf(TotalTicks + "/43"));
     }
 
     //So that the checkboxes count ye ye
@@ -269,6 +265,7 @@ public class Controller {
         System.out.println(TotalTicks);
         textfield.setText(valueOf(TotalTicks + "/43"));
     }
+
 
 
     // This controller is the main controller for switching windows, closing the program, and any other essential code that relates to each page
