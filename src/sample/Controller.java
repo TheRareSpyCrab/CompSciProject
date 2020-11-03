@@ -152,6 +152,7 @@ public class Controller {
         check29.setSelected(check29Saved);
         check30.setSelected(check30Saved);
 
+
         int TotalTicks = ticksp1;
         System.out.println(TotalTicks);
         textfield.setText(valueOf(TotalTicks + "/43"));
