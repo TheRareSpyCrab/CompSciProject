@@ -1,20 +1,18 @@
 package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.prefs.Preferences;
-
 import static java.lang.String.valueOf;
 
 public class Controller {
 
-    //all the check boxes and buttons etc
+    // This controller is the main controller for switching windows, closing the program, and any other essential code that relates to each page
+
+    //This is a list of all checkboxes as well as the text field that the total will eventually go to. This is used to define them for later use.
     @FXML
     public javafx.scene.control.TextField textfield;
     public javafx.scene.control.CheckBox check1;
@@ -49,7 +47,7 @@ public class Controller {
     public javafx.scene.control.CheckBox check30;
     static int ticksp1 = 0;
 
-    //to saveeee
+    //This section is dedicated to saving. Each of these grabs a checkbox from the previous defining section and checks what state it is in so that it can save it when the saving action is carried out.
 
     public void saving()  {
         Preferences prefs = Preferences.userRoot().node(this.getClass().getName());
@@ -85,7 +83,7 @@ public class Controller {
         prefs.putBoolean("check30", check30.isSelected());
     }
 
-    //to loaaadddd
+    //This section is for the loading of the checkboxe state. The initialize part tells the program to load this part of the program when the program first boots up.
 
 
     public void initialize(){
@@ -120,6 +118,8 @@ public class Controller {
         boolean check28Saved = prefs.getBoolean("check28", false );
         boolean check29Saved = prefs.getBoolean("check29", false );
         boolean check30Saved = prefs.getBoolean("check30", false );
+
+        //this bit tells the program to set the checkboxes state regarding what it has been saved to previously.
 
         check1.setSelected(check1Saved);
         check2.setSelected(check2Saved);
@@ -158,7 +158,7 @@ public class Controller {
         textfield.setText(valueOf(TotalTicks + "/43"));
     }
 
-    //So that the checkboxes count ye ye
+    //This section allows the program to count the amount of checkboxes that have been ticked throughout the program.
 
     public void PressButtonTicks(ActionEvent event){
         System.out.println("amount of ticks is: ");
@@ -259,7 +259,7 @@ public class Controller {
         countTotalTicks();
     }
 
-    //prints out to the main menu yeeee yeee
+    //This little bit sends the total amount of checkboxes ticked to the home page
 
     public void countTotalTicks(){
         int TotalTicks = ticksp1;
@@ -268,8 +268,8 @@ public class Controller {
     }
 
 
+        // this is used to  switch panes. a very simple and effective way ot switching panes.
 
-    // This controller is the main controller for switching windows, closing the program, and any other essential code that relates to each page
     @FXML
     public StackPane stackPane;
     public Pane MainPane;
@@ -341,7 +341,7 @@ public class Controller {
         MuseumPane3.setVisible(true);
     }
 
-    //close button
+    //This is the code that is used when clicking on a close button.
 
     @FXML
     private javafx.scene.control.Button closeButton;

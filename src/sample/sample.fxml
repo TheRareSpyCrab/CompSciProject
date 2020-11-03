@@ -10,16 +10,16 @@
    <children>
       <StackPane fx:id="stackPane" prefHeight="1056.0" prefWidth="1920.0">
          <children>
-            <ScrollPane fx:id="MuseumPane3" layoutX="10.0" layoutY="10.0" prefHeight="1056.0" prefWidth="1922.0" visible="false">
+            <ScrollPane fx:id="MuseumPane3" layoutX="10.0" layoutY="10.0" prefHeight="1056.0" prefWidth="1921.0" visible="false">
                <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3055.0" prefWidth="1921.0">
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1527.0" prefWidth="1921.0">
                      <children>
                         <ImageView pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Icons/background2.jpg" />
+                              <Image url="@../Icons/background3.png" />
                            </image>
                         </ImageView>
-                        <StackPane layoutX="100.0" layoutY="650.0" prefHeight="2324.0" prefWidth="1720.0">
+                        <StackPane layoutX="100.0" layoutY="650.0" prefHeight="1527.0" prefWidth="1720.0">
                            <children>
                               <Pane prefHeight="2324.0" prefWidth="1714.0">
                                  <children>
@@ -169,6 +169,18 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </Button>
+                        <Button fx:id="closeButton31" layoutX="1804.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="51.0" prefWidth="91.0" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="79.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icons/closeiconpng.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
                      </children>
                   </AnchorPane>
                </content>
@@ -287,26 +299,6 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <Label layoutX="367.0" layoutY="122.0" prefHeight="44.0" prefWidth="164.0" text="Fake version">
-                                       <font>
-                                          <Font name="FinkHeavy" size="30.0" />
-                                       </font>
-                                    </Label>
-                                    <Label layoutX="322.0" layoutY="232.0" prefHeight="28.0" prefWidth="209.0" text="Real version ">
-                                       <font>
-                                          <Font name="FinkHeavy" size="30.0" />
-                                       </font>
-                                    </Label>
-                                    <ImageView fitHeight="37.0" fitWidth="46.0" layoutX="322.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../Icons/ahh.png" />
-                                       </image>
-                                    </ImageView>
-                                    <ImageView fitHeight="24.0" fitWidth="197.0" layoutX="486.0" layoutY="242.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../Icons/ahh.png" />
-                                       </image>
-                                    </ImageView>
                                  </children>
                               </Pane>
                            </children>
@@ -424,6 +416,18 @@
                            </cursor>
                         </Button>
                         <Button layoutX="1603.0" layoutY="552.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="closeButton3" layoutX="1801.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="51.0" prefWidth="91.0" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="79.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icons/closeiconpng.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor>
@@ -563,16 +567,6 @@
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </CheckBox>
-                                    <Label layoutX="322.0" layoutY="143.0" prefHeight="38.0" prefWidth="404.0" text="This painting is always genuine!">
-                                       <font>
-                                          <Font name="FinkHeavy" size="30.0" />
-                                       </font>
-                                    </Label>
-                                    <Label layoutX="322.0" layoutY="214.0" prefHeight="55.0" prefWidth="290.0" text="Original: The Gleaners">
-                                       <font>
-                                          <Font name="FinkHeavy" size="30.0" />
-                                       </font>
-                                    </Label>
                                  </children>
                               </Pane>
                            </children>
@@ -689,6 +683,18 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </Button>
+                        <Button fx:id="closeButton2" layoutX="1802.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="51.0" prefWidth="91.0" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="79.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icons/closeiconpng.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
                      </children></AnchorPane>
                </content>
             </ScrollPane>
@@ -711,44 +717,32 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="1803.0" layoutY="24.0" mnemonicParsing="false" onAction="#closeButtonAction" style="-fx-background-color: transparent;">
-                     <graphic>
-                        <ImageView fitHeight="79.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Icons/closeiconpng.png" />
-                           </image>
-                           <cursor>
-                              <Cursor fx:constant="HAND" />
-                           </cursor>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <TextField layoutX="1489.0" layoutY="585.0"  prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
+                  <TextField layoutX="1489.0" layoutY="585.0" prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
                      <font>
                         <Font name="FinkHeavy" size="19.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="1489.0" layoutY="638.0"  prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
+                  <TextField layoutX="1489.0" layoutY="638.0" prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
                      <font>
                         <Font name="FinkHeavy" size="19.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="1489.0" layoutY="693.0"  prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
+                  <TextField layoutX="1489.0" layoutY="693.0" prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
                      <font>
                         <Font name="FinkHeavy" size="19.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="1489.0" layoutY="746.0"  prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
+                  <TextField layoutX="1489.0" layoutY="746.0" prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
                      <font>
                         <Font name="FinkHeavy" size="19.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="1489.0" layoutY="800.0"  prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
+                  <TextField layoutX="1489.0" layoutY="800.0" prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
                      <font>
                         <Font name="FinkHeavy" size="19.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="1489.0" layoutY="855.0"  prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
+                  <TextField layoutX="1489.0" layoutY="855.0" prefHeight="43.0" prefWidth="278.0" promptText="Type here!">
                      <font>
                         <Font name="FinkHeavy" size="19.0" />
                      </font>
@@ -758,6 +752,18 @@
                         <Font name="FinkHeavy" size="43.0" />
                      </font>
                   </TextField>
+                  <Button fx:id="closeButton1" layoutX="1803.0" layoutY="24.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="51.0" prefWidth="91.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="79.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icons/closeiconpng.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
                </children>
             </Pane>
             <Pane fx:id="MainPane" prefHeight="514.0" prefWidth="1310.0">
