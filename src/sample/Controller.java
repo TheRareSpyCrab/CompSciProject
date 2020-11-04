@@ -13,6 +13,7 @@ public class Controller {
     // This controller is the main controller for switching windows, closing the program, and any other essential code that relates to each page
 
     //This is a list of all checkboxes as well as the text field that the total will eventually go to. This is used to define them for later use.
+    
     @FXML
     public javafx.scene.control.TextField textfield;
     public javafx.scene.control.CheckBox check1;
